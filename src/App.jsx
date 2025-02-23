@@ -30,8 +30,8 @@ const App = () => {
   return (
     <div className="card-container">
       <Card title="Star Wars" rating={5} isCool={true} />
-      <Card title="Avatar" />
-      <Card title="The Lion King" />
+      <Card title="Avatar" rating={5} isCool={true} />
+      <Card title="The Lion King" rating={5} isCool={true} />
     </div>
   );
 };
